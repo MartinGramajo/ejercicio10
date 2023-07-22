@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="bg-app d-flex flex-column min-vh-100">
       <section>
-        <h1 className="text-center py-5 display-6">
+        <h1 className="text-center py-5 display-6 text-white">
           Administrador de Películas
         </h1>
       </section>
