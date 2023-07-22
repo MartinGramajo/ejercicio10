@@ -95,7 +95,12 @@ export default function FormularioPeliculas({ nuevaPelicula }) {
           </Form.Select>
         </Row>
         <Card.Footer className="text-center bg-light pt-4">
-          <Button className="text-white" variant="info" type="submit">
+          <Button
+            className="text-white"
+            variant="success"
+            size="lg"
+            type="submit"
+          >
             <FontAwesomeIcon icon={faPlusCircle} /> Agregar nueva Pelicula
           </Button>
         </Card.Footer>
