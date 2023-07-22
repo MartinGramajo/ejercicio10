@@ -30,7 +30,6 @@ function App() {
       confirmButtonText: "Si",
       denyButtonText: `no`,
     }).then((result) => {
-      /* Read more about isConfirmed, isDenied below */
       if (result.isConfirmed) {
         Swal.fire("Pelicula borrada con éxito", "", "success");
         const nuevasPeliculas = peliculas.filter(
