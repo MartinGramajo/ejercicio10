@@ -1,0 +1,8 @@
+.cita-carta {
+  width: 600px !important;
+}
+
+.bg-app {
+  background: #331d4d;
+  background: linear-gradient(90deg, #331d4d, #290c4a 84%, #110122);
+}
